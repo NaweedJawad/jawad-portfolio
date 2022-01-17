@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -7,17 +8,20 @@ h1{
 span{
     color: skyblue;
 }
-section{
+.container{
     display: flex;
 }
 .half{
     width: 70%;
     padding: 3%;
+    
 }
-.half img{
+.half  img{
     width: 80% ;
     margin: 20%;
     margin-top: 4%;
+    margin-left: 0%;
+    
     
 }
 .anchor{
@@ -27,4 +31,46 @@ section{
     font-weight: 600;
     padding: 10px 30px;
     border-radius: 5px;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.big{
+    margin-right: 10%;
+}
+.e1{
+    padding: 30px;
+    margin-top: 0%;
+    margin-bottom: 40px;
+    margin: 60px;
+}
+.e2{
+    padding: 30px;
+    margin-top: 0%;
+    margin-bottom: 40px;
+    margin: 60px;
+}
+.e3{
+    margin-bottom: 0%;
+
+}
+h2{
+    font-size: 40px;
+}
+.box{
+    box-shadow: 10px 10px 30px blue;
+    width: 80%;
+    padding: 25px;
+    border-radius: 10px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
