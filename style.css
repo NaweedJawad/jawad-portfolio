@@ -49,12 +49,18 @@ span{
     margin-top: 0%;
     margin-bottom: 40px;
     margin: 60px;
+    border-left: 7px solid;
+    border-image: linear-gradient( red, orange);
+    border-image-slice: 1;
 }
 .e2{
     padding: 30px;
     margin-top: 0%;
     margin-bottom: 40px;
     margin: 60px;
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 .e3{
     margin-bottom: 0%;
@@ -73,4 +79,7 @@ h2{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+footer{
+    text-align: center;
 }
